@@ -160,8 +160,8 @@ function stability(selectB)
                 buttonA.setAttribute("value", "delete cookie");
                 buttonA.setAttribute("onClick", "DeleteAllCookie()");
                 var buttonTextNode = document.createTextNode("DELETE COOKIE");
-                console.log(pBtextnode.textContent);
-                console.log(pB);
+                // console.log(pBtextnode.textContent);
+                // console.log(pB);
 
                 SetCookie("answer", pBtextnode.textContent);
                 
@@ -182,6 +182,9 @@ function stability(selectB)
                 pCookie.append(buttonA);
 
                 document.body.append(pCookie);
+
+                addValidation(finalAnswer);
+                
                 
             }
     }

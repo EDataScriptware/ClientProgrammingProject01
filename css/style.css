@@ -3,6 +3,12 @@ html
     background-image: url("../media/wallpaper.jpg");
     background-repeat: no-repeat;    
 }
+input
+{
+text-align: center;
+margin-left: 45.7%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h1
 {
     text-align: center;
