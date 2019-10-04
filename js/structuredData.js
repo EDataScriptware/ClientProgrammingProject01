@@ -169,6 +169,7 @@ function stability(selectB)
                 // document.cookie="answer="+pBtextnode.textContent;
                 
                 
+                // localstorage.setitem(label, value)
                 localStorage.setItem("answer", pBtextnode.textContent);
                 finalAnswer = localStorage.getItem("answer");
 
