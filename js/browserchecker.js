@@ -4,6 +4,10 @@
 // DATE: 10/06/2019
 // ASSIGNMENT: Project 01
 
+
+// Works Cited: https://jsfiddle.net/6spj1059/ in https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser 
+
+
 // Firefox/Gecko 1.0+
  var isFirefox = typeof InstallTrigger !== 'undefined';
 
