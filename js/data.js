@@ -1,9 +1,13 @@
+// checking if data.js can be called
 console.log("data.js triggered")
 var firstData = '';
+
+// the first move
 var data = [firstData];
 
 
 // data['insertsomething'] = ['q1', '---', 'a1', 'a2'];
+    // data['a1'] = ['q2', '---', 'a3', 'a4'];
 
 data[firstData] = ["Do you prefer quiet city or noisy city?", "---","quiet", "noisy"];
     data["noisy"] = ["Do you prefer big city or little city?","---","big city", "little city"];

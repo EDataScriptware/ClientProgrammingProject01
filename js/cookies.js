@@ -2,6 +2,8 @@
 // You can use this code for your projects!
 // Derived from the Bill Dortch code at http://www.hidaho.com/cookies/cookie.txt
 
+// WAS USED IN A LECTURE - TOLD TO REUSE
+
 var today = new Date();
 //expires in a year....
 var expiry = new Date(today.getTime() + 365 * 24 * 60 * 60 * 1000);

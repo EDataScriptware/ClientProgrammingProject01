@@ -23,17 +23,19 @@ function movingRV()
         // imageRVElement.style.top = yPos + 'px';
         // imageRVElement.style.left = xPos + 'px';
 
-        // setInterval(nextFunction, "speed")
+        // Template: setInterval(nextFunction, "speed")
         var interval = setInterval(firstStep, 10);
     
         // Diagonally right-down
         function firstStep() 
         {
-        
+
+          //image src
          imageRVElement.setAttribute("src", "media/RV.png");
          
-            if (yPos == 125) 
+          if (yPos == 125) 
           {
+            // finish current "motion"
             clearInterval(interval);
             interval = setInterval(secondStep, 15);
           } 
@@ -53,6 +55,7 @@ function movingRV()
         {
           if (yPos == 15) 
           {
+            
             clearInterval(interval);
             interval = setInterval(thirdStep, 9);
           } 
@@ -181,11 +184,12 @@ function movingRV()
 
 function LoadAnswerImage(finalAnswer)
 {   
-
+    // create an image element 
     var imageAnswerElement = document.createElement("img");
+    // apply specific height attribute 
     imageAnswerElement.setAttribute("height", "250px");
 
-    
+    // if the final answer is New York City, New York - reveal the image of where New York City is.
     if (finalAnswer == "New York City, New York")
     { 
         imageAnswerElement.setAttribute("src", "media/NewYork.png");
@@ -204,6 +208,7 @@ function LoadAnswerImage(finalAnswer)
         imageAnswerElement.setAttribute("src", "media/Charleston.png");
     }
     
+    // Comedy joke of where is Barrow, Alaska since the user selected isolated quiet town
     else if (finalAnswer == "Barrow, Alaska")
     {
         imageAnswerElement.setAttribute("src", "media/Barrow.png");
@@ -227,10 +232,12 @@ function LoadAnswerImage(finalAnswer)
     {
         imageAnswerElement.setAttribute("src", "media/StPeter.png"); 
     }
+    // should not ever happen will pop up if it is an error
     else 
     {
         alert("ERROR");
     }
-
+    
+    // append whatever the src attribute is selected otherwise error does not reveal it at all
     document.body.append(imageAnswerElement);
 }

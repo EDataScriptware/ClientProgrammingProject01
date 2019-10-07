@@ -21,6 +21,7 @@ var isEdge = !isIE && !!window.StyleMedia;
  output += ' isEdge:' + isEdge;
  console.log(output); 
 
+// If it is any IE versions, redirect to a barebone webpage
 if (isIE)
 {
     alert("You will now be redirected to a custom barebone webpage that contains browsers.");
