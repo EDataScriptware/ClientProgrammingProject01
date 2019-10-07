@@ -1,4 +1,10 @@
- // Firefox/Gecko 1.0+
+// NAME: Edward Riley
+// PROFESSOR: Michael Floeser
+// COURSE: Client Programming
+// DATE: 10/06/2019
+// ASSIGNMENT: Project 01
+
+// Firefox/Gecko 1.0+
  var isFirefox = typeof InstallTrigger !== 'undefined';
 
 // Safari 3.0+ "[object HTMLElementConstructor]" 

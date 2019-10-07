@@ -1,3 +1,9 @@
+// NAME: Edward Riley
+// PROFESSOR: Michael Floeser
+// COURSE: Client Programming
+// DATE: 10/06/2019
+// ASSIGNMENT: Project 01
+
 // cookies.js
 // You can use this code for your projects!
 // Derived from the Bill Dortch code at http://www.hidaho.com/cookies/cookie.txt
